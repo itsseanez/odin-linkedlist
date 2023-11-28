@@ -1,5 +1,7 @@
-const Node= ((value) => {
-    this.value= null
-    nextNode= null
-    return {value, nextNode};
-})();
+class Node {
+    constructor(value = null, nextNode = null) {
+      this.value = value;
+      this.nextNode = nextNode;
+    }
+  }
+module.exports = Node;
